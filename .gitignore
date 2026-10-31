@@ -1,0 +1,23 @@
+# .NET build files
+**/bin/
+**/obj/
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# OS files
+.DS_Store
+
+# Local environment and secrets
+.env
+.env.*
+**/secrets.json
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
